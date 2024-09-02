@@ -93,8 +93,8 @@ button:hover {
 .table-container {
   width: 100%;
   height: 40vh;
-  overflow-x: auto; /* تمكين التمرير الأفقي */
-  margin: 20px 0; /* إضافة هوامش حول الجدول */
+  overflow-x: auto;
+  margin: 20px 0;
 }
 
 table {
@@ -119,6 +119,6 @@ table td {
 
 @media (max-width: 767px) {
   .table-container {
-    overflow-x: auto; /* تمكين التمرير الأفقي على الشاشات الصغيرة */
+    overflow-x: auto;
   }
 }
